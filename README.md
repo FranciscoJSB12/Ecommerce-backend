@@ -9,8 +9,6 @@ Ecommerce, así que es bastante sencillo y puedes consultar todos los productos 
 
 2- Corre npm run dev para modo desarrollo
 
-   Corre npm start para modo producción
-
 3- Puedes consultar la API en la dirección http://localhost:8000/products para obtener todos lo productos.
 Si necesitas un solo producto http://localhost:8000/products/id
 
@@ -25,8 +23,6 @@ was made for practicing purposes, so it is quite simple and you can either fetch
 1- Clone the repository and run npm install to download all of the dependencies.
 
 2- Run npm run dev for development
-
-   Run npm start for production
 
 3- You can fetch the API by using this url http://localhost:3000/products to get all of the products.
 If you need one product only http://localhost:3000/products/id
