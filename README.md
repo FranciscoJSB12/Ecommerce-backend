@@ -12,7 +12,16 @@ Ecommerce, así que es bastante sencillo y puedes consultar todos los productos 
    Corre npm start para modo producción
 
 3- Puedes consultar la API en la dirección http://localhost:8000/products para obtener todos lo productos.
-Si necesitas un solo producto http://localhost:8000/products/id 
+Si necesitas un solo producto http://localhost:8000/products/id
+
+La API devuelve un array con 50 productos, cada producto es un objecto con las siguientes claves:
+-id
+-name
+-category
+-description
+-price
+-image
+Ejemplo: product.name retorna el nombre del producto.
 
 # English docs
 
@@ -27,4 +36,13 @@ was made for practicing purposes, so it is quite simple and you can either fetch
 
 3- You can fetch the API by using this url http://localhost:3000/products to get all of the products.
 If you need one product only http://localhost:3000/products/id
+
+The API returns an array with 50 products and each of them has the following keys:
+-id
+-name
+-category
+-description
+-price
+-image
+Example: product.name returns the name of the product.
 
