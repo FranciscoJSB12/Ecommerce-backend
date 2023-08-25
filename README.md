@@ -1,6 +1,6 @@
-#Backend Ecommerce
+# Backend Ecommerce
 
-#Documentación en español
+# Documentación en español
 
 Este es un servidor creado con nodejs y express para practicar la consulta a una API de una
 Ecommerce, fue creado con propósito de tener un servidor sencillo de práctica donde se puede
@@ -15,7 +15,7 @@ Corre npm start para modo producción
 Puedes consultar la API en la dirección http://localhost:8000/products para obtener todos lo productos.
 Si necesitas un solo producto http://localhost:8000/products/id 
 
-#English docs
+# English docs
 
 This server was created using nodejs and express in order to practice fetching a Ecommerce API, it 
 was made for practicing purposes so it is quite simple and you can either fetch all of the products or one of them.
