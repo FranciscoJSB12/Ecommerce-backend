@@ -16,7 +16,7 @@ class ProductService {
         ];
 
         for (let i = 0; i < 50; i++) {
-            const randomNumber = Math.floor(Math.random() * 6);
+            const randomNumber = Math.floor(Math.random() * 5);
             const product = {
                 id: faker.string.uuid(),
                 name: faker.commerce.product(),
