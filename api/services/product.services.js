@@ -15,7 +15,7 @@ class ProductService {
             'Others'
         ];
 
-        for (let i = 0; i < 50; i++) {
+        for (let i = 0; i < 100; i++) {
             const randomNumber = Math.floor(Math.random() * 5);
             const product = {
                 id: faker.string.uuid(),

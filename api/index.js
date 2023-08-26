@@ -8,16 +8,16 @@ const app = express();
 
 const service = new ProductService();
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 
-app.get('/products', (req, res) => {
+app.get('/api/products', (req, res) => {
     const data = service.find();
     res.status(200).json(data);
 });
 
-app.get('/products/:id', (req, res) => {
+app.get('/api/products/:id', (req, res) => {
     const { id } = req.params;
     const data = service.findOne(id);
     if (data) {
@@ -33,6 +33,4 @@ app.get('/products/:id', (req, res) => {
    
 });
 
-app.listen(8080, () => {
-    console.log('Server running on port ' + port);
-});
+app.listen(port);
