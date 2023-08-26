@@ -7,11 +7,20 @@ class ProductService {
     }
 
     generate() {
+        const randomCategory = [
+            'Clothes',
+            'Electronics',
+            'Furniture',
+            'Toys',
+            'Others'
+        ];
+
         for (let i = 0; i < 50; i++) {
+            const randomNumber = Math.floor(Math.random() * 6);
             const product = {
                 id: faker.string.uuid(),
                 name: faker.commerce.product(),
-                category: faker.commerce.department(),
+                category: randomCategory[randomNumber],
                 description: faker.commerce.productDescription(),
                 price: faker.commerce.price(),
                 image: faker.image.url()   
